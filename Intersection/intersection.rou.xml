@@ -1,0 +1,22 @@
+<routes>
+   <vType id="car" type="passenger" length="5" accel="3.5" decel="2.2" sigma="1.0"/>
+   <flow id="carflow010" type="car" begin="0" end="1000" probability="0.14" from="-gneE0" to="gneE1" departLane="1" />
+   <flow id="carflow020" type="car" begin="0" end="1000" probability="0.10" from="-gneE0" to="gneE2" departLane="1" />
+   <flow id="carflow030" type="car" begin="0" end="1000" probability="0.10" from="-gneE0" to="gneE3" departLane="0" />
+   
+
+   <flow id="carflow100" type="car" begin="0" end="1000" probability="0.14" from="-gneE1" to="gneE0" departLane="0"/>
+   <flow id="carflow120" type="car" begin="0" end="1000" probability="0.10" from="-gneE1" to="gneE2" departLane="1"/>
+   <flow id="carflow130" type="car" begin="0" end="1000" probability="0.10" from="-gneE1" to="gneE3" departLane="1"/>
+ 
+
+   <flow id="carflow210" type="car" begin="0" end="1000" probability="0.10" from="-gneE2" to="gneE1" departLane="0"/>
+   <flow id="carflow200" type="car" begin="0" end="1000" probability="0.10" from="-gneE2" to="gneE0" departLane="1"/>
+   <flow id="carflow230" type="car" begin="0" end="1000" probability="0.14" from="-gneE2" to="gneE3" departLane="1"/>
+   
+
+   <flow id="carflow310" type="car" begin="0" end="1000" probability="0.10" from="-gneE3" to="gneE1" departLane="1"/>
+   <flow id="carflow320" type="car" begin="0" end="1000" probability="0.14" from="-gneE3" to="gneE2" departLane="0"/>
+   <flow id="carflow300" type="car" begin="0" end="1000" probability="0.10" from="-gneE3" to="gneE0" departLane="1"/>
+ 
+</routes>
