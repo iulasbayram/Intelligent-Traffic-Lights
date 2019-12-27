@@ -25,7 +25,6 @@ Reward is calculated using SARSA algorithm. This algorithm is quite similar with
 As you can see above snapshot, each phase tag represents one signal block which consist of 12 signals. It means that there are 12 traffic signals in our intersection scenario and 4 version of traffic lights actively working in sequence. Agent generates 4 possible number acting as 4 traffic lights and makes a random selection among them. Selected number represents the particular version of traffic light and particular signal block as well.
 
 
-
 ## Installation
 
  1. Check whether pip3 exists or not
