@@ -191,7 +191,6 @@
     <connection from=":gneJ00_2" to="gneE1" fromLane="0" toLane="1" via=":gneJ00_12_0" dir="l" state="m"/>
     <connection from=":gneJ00_12" to="gneE1" fromLane="0" toLane="1" dir="l" state="M"/>
     <connection from=":gneJ00_3" to="gneE0" fromLane="0" toLane="0" dir="r" state="M"/>
-    <!-- alttakinde kaldın ince ayar çek işin bitince -->
     <connection from=":gneJ00_4" to="gneE3" fromLane="0" toLane="1" dir="s" state="M"/>
     <connection from=":gneJ00_5" to="gneE2" fromLane="0" toLane="1" via=":gneJ00_13_0" dir="l" state="m"/>
     <connection from=":gneJ00_13" to="gneE2" fromLane="0" toLane="1" dir="l" state="M"/>
